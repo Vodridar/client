@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom"
 
-const Card = () => {
+const Card_page = () => {
   return (
     <div>
       
@@ -9,5 +9,5 @@ const Card = () => {
   );
 };
 
-export default Card;
+export default Card_page;
     
