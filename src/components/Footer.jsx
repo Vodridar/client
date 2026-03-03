@@ -1,6 +1,4 @@
 import React from "react";
-import Header from "./header";
-import Catalog from "./Catalog";
 import Well from './../images/WellWet.svg'
 
 const Footer = () => {

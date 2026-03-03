@@ -1,6 +1,6 @@
 import Header from "./header";
 import Product from './../images/Product.svg'
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 const Card = (<div className="flex flex-col">
