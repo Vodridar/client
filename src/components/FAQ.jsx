@@ -47,7 +47,7 @@ const FAQ = () => {
               </div>
 
               <div className='flex flex-row items-center gap-2'>
-                <input type="checkbox" id="privacy" className='w-4 h-4 rounded-lg border-[1px] border-[#C7C7CC] ' />
+                <input type="checkbox" id="privacy" className='w-4 h-4 rounded-lg border-[1px] border-[#C7C7CC]' />
                 <label htmlFor="privacy" className='text-base leading-[130%] text-[#1C1C1E]'>Согласен на обработку персональных данных</label>
               </div>
 
