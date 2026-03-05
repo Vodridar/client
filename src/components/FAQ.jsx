@@ -48,7 +48,7 @@ const FAQ = () => {
 
             </div>
 
-            <div className='flex flex-row items-center py-3 px-6 gap-6 w-48 h-14 rounded-xl bg-[#FDD5E9]'>
+            <div className='flex flex-row justify-between items-center py-3 px-6 w-48 h-14 rounded-xl bg-[#FDD5E9]'>
               <span>Отправить</span>
               <ArrowRight />
             </div>
