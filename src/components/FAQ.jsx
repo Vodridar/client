@@ -1,10 +1,11 @@
 import React from 'react'
 import leaf from './../images/leaf.svg'
+import { ArrowRight, ChevronDown } from 'lucide-react'
 
 const FAQ = () => {
   return (
     <div className='flex flex-col items-start p-12 gap-12'>
-      <div className='flex flex-row items-start gap-6 w-[84.00rem] h-[35.50rem]'>
+      <div className='flex flex-row items-start justify-between gap-6 w-[84.00rem] h-[35.50rem]'>
 
         <div>
           <img src={leaf} className='w-96 h-[35.50rem]'/>
@@ -20,31 +21,25 @@ const FAQ = () => {
 
           <div className='flex flex-col items-start gap-8 h-96'>
 
-            <div className='flex flex-col justify-center items-start gap-4 h-72'>
-
-              <div className=''>
-
-                <div className=''>
-
-                  <div className=''>
-                
+            <div className='flex flex-col justify-center items-start gap-4 w-[57.31rem] h-72'>
+                  <div className="flex w-full gap-4">
+                    <div className="bg-gray-100 rounded-xl px-5 py-4 w-[450px] text-gray-500 text-base transition-colors focus-within:bg-gray-200 cursor-text">
+                      Ваше имя
+                    </div>
+                    <div className="bg-gray-100 rounded-xl px-5 py-4 w-[450px] text-gray-500 text-base transition-colors focus-within:bg-gray-200 cursor-text">
+                      Email или телефон
+                    </div>
                   </div>
 
-                  <div className=''>
-
+                  <div className="w-full bg-gray-100 rounded-xl px-5 py-4 text-gray-500 text-base flex justify-between items-center cursor-pointer hover:bg-gray-200 transition-colors">
+                    <span>Тип организации</span>
+                    <ChevronDown />
                   </div>
 
-                </div>
 
-                <div className=''>
-
-                </div>
-
-                <div className=''>
-
-                </div>
-
-              </div>
+                  <div className="w-full bg-gray-100 rounded-xl px-5 py-4 text-gray-500 text-base min-h-[120px] cursor-text">
+                    Ваш вопрос или комментарий
+                  </div>
 
               <div className='flex flex-row items-center gap-2'>
                 <input type="checkbox" id="privacy" className='w-4 h-4 rounded-lg border-[1px] border-[#C7C7CC]' />
@@ -53,8 +48,9 @@ const FAQ = () => {
 
             </div>
 
-            <div className='flex flex-row'>
-              <button className='items-center py-3 px-6 gap-6 w-48 h-14 rounded-xl bg-[#FDD5E9]'>Отправить</button>
+            <div className='flex flex-row items-center py-3 px-6 gap-6 w-48 h-14 rounded-xl bg-[#FDD5E9]'>
+              <span>Отправить</span>
+              <ArrowRight />
             </div>
           </div>
         </div>

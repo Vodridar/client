@@ -2,6 +2,10 @@ import React from 'react';
 import Product from './../images/Product.svg'
 import { PawPrint } from 'lucide-react';
 
+const Paw = (<div className='box-border flex flex-row items-center p-2 gap-2 w-8 h-8 rounded-full bg-[#C5E8EE] border-[0.8px] border-[#06B2D3] text-[#06B2D3]'>
+              <PawPrint />
+            </div>)
+
 const Card_page = () => {
   return (
     <div className='flex flex-row items-start justify-between p-12 gap-8'>
@@ -31,9 +35,7 @@ const Card_page = () => {
                 – Подходит для ежедневного питания</span>
             </div>
 
-            <div className='box-border flex flex-row items-center p-2 gap-2 w-8 h-8 rounded-full bg-[#C5E8EE] border-[0.8px] border-[#06B2D3] text-[#06B2D3]'>
-              <PawPrint />
-            </div>
+            {Paw}
           </div>
 
           <div className='box-border flex flex-row items-center p-6 gap-8 h-20 rounded-xl border-[1px] border-[#00000008] bg-[#00000005]'>
@@ -41,9 +43,7 @@ const Card_page = () => {
               <span className='w-[35.50rem] h-7 font-normal text-xl leading-[130%]'>О составе</span>
             </div>
 
-            <div className='box-border flex flex-row items-center p-2 gap-2 w-8 h-8 rounded-full bg-[#C5E8EE] border-[0.8px] border-[#06B2D3] text-[#06B2D3]'>
-              <PawPrint />
-            </div>
+            {Paw}
           </div>
 
           <div className='box-border flex flex-row items-center p-6 gap-8 h-20 rounded-xl border-[1px] border-[#00000008] bg-[#00000005]'>
@@ -51,9 +51,7 @@ const Card_page = () => {
               <span className='w-[35.50rem] h-7 font-normal text-xl leading-[130%]'>Рекомендации по кормлению</span>
             </div>
 
-            <div className='box-border flex flex-row items-center p-2 gap-2 w-8 h-8 rounded-full bg-[#C5E8EE] border-[0.8px] border-[#06B2D3] text-[#06B2D3]'>
-              <PawPrint />
-            </div>
+            {Paw}
           </div>
 
           <div className='box-border flex flex-row items-center p-6 gap-8 h-20 rounded-xl border-[1px] border-[#00000008] bg-[#00000005]'>
@@ -61,12 +59,9 @@ const Card_page = () => {
               <span className='w-[35.50rem] h-7 font-normal text-xl leading-[130%]'>Для кого подойдёт</span>
             </div>
 
-            <div className='box-border flex flex-row items-center p-2 gap-2 w-8 h-8 rounded-full bg-[#C5E8EE] border-[0.8px] border-[#06B2D3] text-[#06B2D3]'>
-              <PawPrint />
-            </div>
+            {Paw}
           </div>
         </div>
-
       </div>
     </div>
   );
